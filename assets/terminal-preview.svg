@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 520" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.45" />
+    </filter>
+  </defs>
+
+  <style>
+    .window { fill: url(#bg); stroke: #334155; stroke-width: 1.5; rx: 12px; }
+    .header { fill: #1e293b; }
+    .btn-close { fill: #ef4444; }
+    .btn-min { fill: #f59e0b; }
+    .btn-max { fill: #10b981; }
+    .title { fill: #94a3b8; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace; font-size: 13px; font-weight: 500; }
+    .text { font-family: "Cascadia Code", "Fira Code", Menlo, Consolas, monospace; font-size: 13px; line-height: 1.5; }
+    .prompt { fill: #38bdf8; font-weight: 600; }
+    .cmd { fill: #f8fafc; font-weight: 600; }
+    .cyan { fill: #22d3ee; }
+    .green { fill: #4ade80; font-weight: 600; }
+    .dim { fill: #64748b; }
+    .white { fill: #f1f5f9; }
+    .yellow { fill: #facc15; }
+    .purple { fill: #c084fc; }
+  </style>
+
+  <g filter="url(#shadow)">
+    <!-- Window Body -->
+    <rect x="25" y="20" width="800" height="475" class="window" />
+
+    <!-- Title Bar -->
+    <path d="M 25 32 C 25 24.5 31 20 38.5 20 L 811.5 20 C 819 20 825 24.5 825 32 L 825 58 L 25 58 Z" class="header" />
+    <line x1="25" y1="58" x2="825" y2="58" stroke="#334155" stroke-width="1" />
+
+    <!-- Window Dots -->
+    <circle cx="48" cy="39" r="6" class="btn-close" />
+    <circle cx="68" cy="39" r="6" class="btn-min" />
+    <circle cx="88" cy="39" r="6" class="btn-max" />
+
+    <!-- Window Title -->
+    <text x="425" y="43" text-anchor="middle" class="title">workspace-architecture-week1 — npm start</text>
+
+    <!-- Terminal Content -->
+    <text x="50" y="90" class="text">
+      <tspan class="prompt">intern@dev-box:~/workspace$</tspan> <tspan class="cmd">npm start</tspan>
+    </text>
+
+    <text x="50" y="120" class="text cyan">================================================================</text>
+    <text x="50" y="142" class="text green">  ★ INTERNSHIP ONBOARDING WORKSPACE ★</text>
+    <text x="50" y="162" class="text dim">    Milestone 7: "Hello World" Verification</text>
+    <text x="50" y="184" class="text cyan">================================================================</text>
+
+    <text x="50" y="214" class="text">
+      <tspan class="green">[SUCCESS]</tspan> <tspan class="purple">[Workspace]</tspan> <tspan class="white">Hello World! Welcome to the engineering team, Engineering Intern!</tspan>
+    </text>
+
+    <text x="50" y="238" class="text">
+      <tspan class="cyan">[INFO]</tspan> <tspan class="purple">[Workspace]</tspan> <tspan class="dim">Performing runtime inspection...</tspan>
+    </text>
+
+    <!-- Snapshot Box -->
+    <text x="50" y="270" class="text dim">--- Workspace Runtime Snapshot ---</text>
+    <text x="50" y="292" class="text white">• App:         Internship Onboarding App (v1.0.0)</text>
+    <text x="50" y="312" class="text white">• Environment: development</text>
+    <text x="50" y="332" class="text white">• Intern:      Engineering Intern [Fullstack Engineering Intern]</text>
+    <text x="50" y="352" class="text white">• Platform:    win32 (x64) - Node.js v24.22.1</text>
+    <text x="50" y="372" class="text dim">----------------------------------</text>
+
+    <!-- Milestones -->
+    <text x="50" y="402" class="text">
+      <tspan class="cyan">[INFO]</tspan> <tspan class="purple">[Workspace]</tspan> <tspan class="white">Tracking Week 1 Onboarding Milestones:</tspan>
+    </text>
+    <text x="50" y="424" class="text">
+      <tspan class="green">  ✔ [M1] Workspace Scaffolding &amp; Architecture</tspan> <tspan class="dim">[COMPLETED]</tspan>
+    </text>
+    <text x="50" y="444" class="text">
+      <tspan class="green">  ✔ [M2] Toolchain &amp; Environment Verification</tspan> <tspan class="dim">[COMPLETED]</tspan>
+    </text>
+    <text x="50" y="468" class="text">
+      <tspan class="green">[SUCCESS]</tspan> <tspan class="purple">[Workspace]</tspan> <tspan class="green">Environment verified successfully! "Hello World" milestone achieved.</tspan>
+    </text>
+  </g>
+</svg>

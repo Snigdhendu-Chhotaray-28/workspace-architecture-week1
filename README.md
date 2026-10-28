@@ -9,6 +9,75 @@ Welcome to the engineering team! This repository represents your **standardized,
 
 ---
 
+## 🖥️ Workspace Preview
+
+<p align="center">
+  <img src="assets/terminal-preview.svg" alt="Terminal Execution Preview" width="850">
+</p>
+
+<details open>
+<summary><b>🔍 Click to view verified Terminal Execution Output (<code>npm start</code>)</b></summary>
+
+```bash
+$ npm start
+
+================================================================
+  ★ INTERNSHIP ONBOARDING WORKSPACE ★
+    Milestone 7: "Hello World" Verification
+================================================================
+[SUCCESS] [Workspace] Hello World! Welcome to the engineering team, Engineering Intern!
+[INFO]    [Workspace] Performing runtime inspection...
+
+--- Workspace Runtime Snapshot ---
+• App:         Internship Onboarding App (v1.0.0)
+• Environment: development
+• Intern:      Engineering Intern [Fullstack Engineering Intern]
+• Mentor:      Senior Mentor
+• Platform:    win32 (x64) - Node.js v24.22.1
+• Memory:      3.43 GB free of 15.71 GB
+----------------------------------
+
+[INFO]    [Workspace] Tracking Week 1 Onboarding Milestones:
+  ✔ [M1] Workspace Scaffolding & Architecture       [COMPLETED]
+  ✔ [M2] Toolchain & Environment Verification       [COMPLETED]
+  ✔ [M3] Version Control & Git Conventions          [COMPLETED]
+  ▶ [M4] Hello World Execution Milestone            [IN_PROGRESS]
+  ○ [M5] First Pull Request & Code Review           [PENDING]
+
+[SUCCESS] [Workspace] Environment verified successfully! "Hello World" milestone achieved.
+```
+
+</details>
+
+<details>
+<summary><b>🩺 Click to view Automated Health Check Diagnostic Output (<code>npm run healthcheck</code>)</b></summary>
+
+```bash
+$ npm run healthcheck
+
+================================================================
+   INTERNSHIP ONBOARDING WORKSPACE - ENVIRONMENT HEALTH CHECK   
+================================================================
+
+  [PASS] Node.js Runtime                     : v24.22.1 (Supported >= v18)
+  [PASS] npm Package Manager                 : v11.19.1
+  [PASS] Git Version Control CLI             : git version 2.56.0.windows.2
+  [PASS] Git Repository Init                 : Workspace is an active Git repository
+  [PASS] Git User Identity                   : Snigdhendu-Chhotaray-28 <snigdhenduchhotaray@gmail.com>
+  [PASS] Python Runtime (Secondary)          : Python 3.15.1
+  [PASS] Workspace Directory Layout          : All 9 architectural directories verified
+  [PASS] Critical Files & Docs               : All configurations, templates & docs present
+
+Diagnostics Summary:
+  Passed: 8 | Warnings: 0 | Failures: 0
+
+✔ WORKSPACE HEALTH CHECK PASSED: System ready for engineering sprint!
+```
+
+</details>
+
+---
+
 ## 🌟 Quick Start Guide
 
 Get up and running in less than 2 minutes:
