@@ -1,0 +1,20 @@
+{
+  "app": {
+    "name": "Internship Onboarding App",
+    "version": "1.0.0",
+    "description": "Production-grade starter module for internship verification"
+  },
+  "server": {
+    "port": 3000,
+    "host": "localhost",
+    "timeoutMs": 5000
+  },
+  "logging": {
+    "level": "info",
+    "showTimestamps": true
+  },
+  "features": {
+    "enableMetrics": true,
+    "enableDiagnostics": true
+  }
+}

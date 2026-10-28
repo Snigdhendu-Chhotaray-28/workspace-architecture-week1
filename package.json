@@ -1,0 +1,27 @@
+{
+  "name": "workspace-architecture-week1",
+  "version": "1.0.0",
+  "description": "Production-grade internship onboarding workspace and architectural scaffolding",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test tests/*.test.js",
+    "test:watch": "node --test --watch tests/*.test.js",
+    "healthcheck": "node scripts/health-check.js",
+    "setup:win": "powershell -ExecutionPolicy Bypass -File scripts/setup.ps1",
+    "setup:unix": "bash scripts/setup.sh"
+  },
+  "keywords": [
+    "onboarding",
+    "internship",
+    "architecture",
+    "developer-tooling",
+    "scaffolding"
+  ],
+  "author": "Engineering Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
